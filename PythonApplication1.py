@@ -1,6 +1,6 @@
-#!/usr/bin/python3
+#!/usr/bin/env python
 
-#encoding: utf-8
+# -*- coding: utf-8 -*-
 
 import numpy as np
 from scipy.stats.distributions import norm
@@ -22,5 +22,19 @@ def twoby2():
     
 
 
-print("hello world !")
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(-5,5,100)
+plt.plot(x,np.sin(x))
+plt.show()
+
+#def carre(x)
+# return x*x
+
+#x=2
+#print  carre(x);
+
+plt.plot()
+plt.show()
 
