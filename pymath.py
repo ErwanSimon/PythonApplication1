@@ -3,6 +3,20 @@
 
 import math
 
+def racine_polynome(a,b,c):
+    delta2 =  b*b - 4*a*c
+    delta = math.sqrt(delta2)
+    return -b/(2*a) + delta/(2*a)
+
+a = 1.0
+b = -1.0
+c = -1.0
+
+resultat = racine_polynome(a,b,c)
+
+print(resultat)
+
+
 import numpy as np
 
 import scipy
